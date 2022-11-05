@@ -3,7 +3,11 @@ import './index.scss'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <div className='about-page container'>
+        <h1>About</h1>
+      </div>
+    </>
   )
 }
 

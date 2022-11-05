@@ -1,3 +1,7 @@
+@import 'animate.css';
+
+@import '~loaders.css/src/animations/line-scale-pulse-out-rapid.scss';
+
 @font-face {
     font-family: 'Euphoria';
     src: url('./assets/fonts/EuphoriaParty.ttf') format("truetype");
@@ -11,6 +15,11 @@
 @font-face {
     font-family: 'BellBottom';
     src: url('./assets/fonts/bellBottom.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Retro';
+    src: url('./assets/fonts/retroType.ttf') format("truetype");
 }
 
 .App {

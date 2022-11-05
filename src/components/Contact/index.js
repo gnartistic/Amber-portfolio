@@ -3,7 +3,11 @@ import './index.scss'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <div className='contact-page container'>
+        <h1>Contact</h1>
+      </div>
+    </>
   )
 }
 

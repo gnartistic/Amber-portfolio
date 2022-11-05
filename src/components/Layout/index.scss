@@ -1,0 +1,33 @@
+.home-page,
+.about-page,
+.contact-page,
+.art-page {
+    margin: 45px;
+
+    h1 {
+        font-family: 'BellBottom';
+        color: #FAB73B;
+        font-size: 66px;
+        text-align: left;
+        animation: bounce 1.2s forwards;
+        animation-delay: 1.5s;
+    }
+
+    .text-zone {
+        vertical-align: middle;
+        display: table-cell;
+        width: 75vw;
+
+        p {
+            font-size: 28px;
+            font-family: 'Retro';
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    will-change: contents;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+}

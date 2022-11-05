@@ -3,7 +3,11 @@ import React from 'react'
 
 const Art = () => {
   return (
-    <div>Art</div>
+    <>
+      <div className='art-page container'>
+        <h1>Art</h1>
+      </div>
+    </>
   )
 }
 
