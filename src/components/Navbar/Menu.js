@@ -1,30 +1,29 @@
 import React from 'react'
 import './index.scss'
 import { NavLink } from 'react-router-dom';
+import { slide as Menu } from "react-burger-menu";
 
-const Menu = ({ open, setOpen }) =>
-{
+ // eslint-disable-next-line 
+export default props => {
     return (
         <>
-            <ul className='mobileMenu'>
-                <li>
+            <Menu right className='mobileMenu' pageWrapId={"pageWrap"} outerContainerId={"Navbar"}>
+                <li className="menu-item">
                     <NavLink exact='true' activeclassname='active' size='large' to='/'>Home</NavLink>
                 </li>
 
-                <li>
+                <li className="menu-item">
                     <NavLink exact='true' activeclassname='active' to='/about'>About</NavLink>
                 </li>
 
-                <li>
+                <li className="menu-item">
                     <NavLink exact='true' activeclassname='active' to='/contact'>Contact</NavLink>
                 </li>
 
-                <li>
+                <li className="menu-item">
                     <NavLink exact='true' activeclassname='active' to='/art'>Art</NavLink>
                 </li>
-            </ul>
+            </Menu>
         </>
-    )
-}
-
-export default Menu
+    );
+};

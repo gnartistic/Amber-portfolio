@@ -1,6 +1,4 @@
-import React, { useState } from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import React from "react"
 import Menu from "./Menu";
 import './index.scss'
 import { NavLink } from 'react-router-dom';
@@ -8,19 +6,20 @@ import Sunflower from '../../assets/images/sunflower.png'
 
 const Navbar = () =>
 {
-    const [ open, setOpen ] = useState( false );
+    // const [ open, setOpen ] = useState( false );
 
-    const toggleOpen = () =>
-    {
-        setOpen( true );
-        if( open === true ) {
-            setOpen( false );
-        }
-    }
+    // const toggleOpen = () =>
+    // {
+    //     setOpen( true );
+    //     if( open === true ) {
+    //         setOpen( false );
+    //     }
+    // }
 
     return (
         <>
-            <div className="page">
+            <div className="page" id='pageWrap'>
+                <Menu right pageWrapId={"pageWrap"} outerContainerId={"Navbar"} />
                 <div className='navbar-container'>
                     <div className='logo-container'>
                         <NavLink exact='true' to='/'>
@@ -38,15 +37,11 @@ const Navbar = () =>
 
                         <NavLink exact='true' activeclassname='active' to='/art'>Art</NavLink>
                     </nav>
-                    <nav className='mobileNav'>
-                        <button onClick={toggleOpen}><FontAwesomeIcon icon={faBars} size="lg" color="#573886" />
-                        </button>
-                    </nav>
                 </div>
             
-                {open && <div className="menu" onClick={toggleOpen} >
+                {/* {open && <div className="menu" onClick={toggleOpen} >
                     <Menu />
-                </div> }
+                </div> } */}
                 
                 </div>
         </>

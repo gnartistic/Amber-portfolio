@@ -2,8 +2,6 @@
 .about-page,
 .contact-page,
 .art-page {
-    margin: 45px;
-
     h1 {
         font-family: 'BellBottom';
         color: #FAB73B;
@@ -11,16 +9,20 @@
         text-align: left;
         animation: bounce 1.2s forwards;
         animation-delay: 1.5s;
+        width:20%;
+        padding-left: 7vw;
     }
 
     .text-zone {
         vertical-align: middle;
         display: table-cell;
-        width: 75vw;
+        width: 90vw;
 
         p {
             font-size: 28px;
             font-family: 'Retro';
+            text-align:center;
+            padding-left: 10vw;
         }
     }
 }
