@@ -23,6 +23,9 @@ export default props => {
                 <li className="menu-item">
                     <NavLink exact='true' activeclassname='active' to='/art'>Art</NavLink>
                 </li>
+                <div>
+                    {/* <img src={} alt={}/> */}
+                </div>
             </Menu>
         </>
     );

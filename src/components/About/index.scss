@@ -1,0 +1,48 @@
+.page-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 80px;
+
+    .text-zone1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding:0 50px 50px 50px;
+
+        img {
+            width: 425px;
+            height: 425px;
+            padding: 0 100px 0 0px;
+        }
+
+        .text1 {
+            width: 300px;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+            font-family: 'Retro';
+        }
+    }
+
+    .text-zone2 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 50px 0 50px;
+        .text2 {
+            width: 300px;
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+            font-family: 'Retro';
+        }
+        img {
+            width: 425px;
+            height: 425px;
+            padding: 0 0 0 100px;
+        }
+    }
+}

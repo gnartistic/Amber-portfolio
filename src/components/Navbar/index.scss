@@ -1,167 +1,158 @@
 .page {
+  padding-bottom: 2vw;
 
-.navbar-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-
-    .mobileNav {
-        display: none;
-    }
-
-    .logo-container {
-        padding: 10px;
-        a {
-            width: 25%;
-            display: flex;
-            text-decoration: none;
-
-            img {
-                width: 80px;
-                height: 80px;
-                margin-right: 0px;
-                padding-top: 8px;
-                animation: fadeIn 1.5s forwards;
-            }
-
-            h1 {
-                font-family: 'BellBottom';
-                font-weight: 100;
-                width: 25px;
-                font-size: 36px;
-                text-align: left;
-                color: #573886;
-                // text-transform: uppercase;
-                letter-spacing: -1px;
-                line-height: 30px;
-                animation: fadeInDown 1.5s forwards;
-            }
-
-            .lilac {
-                color: #C6B1D7;
-            }
-        }
-    }
-
-    .desktopNav {
-        justify-content: center;
-        padding: 50px;
-        animation: fadeInDown 1.2s forwards;
-        animation-delay: .1s;
-
-        a {
-            text-align: center;
-            font-size: 30px;
-            padding: 25px;
-            font-family: 'BellBottom';
-            font-weight: 100;
-            text-decoration: none;
-            color: #307473;
-
-
-            &:hover {
-                // color: #61988E;
-                color: #C16200;
-            }
-        }
-
-        a.active {
-            color: #C16200;
-            // &:hover {
-            //     color: #307473;
-            //     // color: #C16200;
-            // }
-        }
-    }
-}
-}
-@media screen and (max-width: 900px) {
-    .desktopNav {
-        display: none;
-    }
-
-    #pageWrap {
-        text-align:center;
-        overflow: auto;
-    }
-
-    /* Individual item */
-.bm-item {
-  display: inline-block;
-    font-family:'BellBottom';
-  /* Our sidebar item styling */
-  text-decoration: none;
-  margin-bottom: 10px;
-  transition: color 0.2s;
-  padding:10px;
-
-  a {
-    color: #307473;
+  #pageWrap {
+    text-align: center;
+    overflow: auto;
   }
-  
-  a:hover{
-    color: #C16200;
-  }
-}
 
-a:-webkit-any-link {
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    font-family: 'BellBottom';
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.2s;
+    padding: 10px;
+
+    a {
+      color: #307473;
+
+      &:hover {
+        color: #C16200;
+      }
+    }
+  }
+
+  a:-webkit-any-link {
     text-decoration: none;
     font-size: 28px;
+  }
+
+  /* Change color on hover */
+  .bm-item:hover {
+    color: white;
+  }
+
+  /* The rest copied directly from react-burger-menu docs */
+
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 180px;
+    top: 80px;
+  }
+
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #573886;
+    border-radius: 5px;
+  }
+
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    display: none;
+  }
+
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+
+  /* General sidebar styles */
+  .bm-menu {
+    background: #FAB73B;
+    padding: 2.5em 3.5em 0;
+    font-size: 1.15em;
+  }
+
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+
+  //  .bm-overlay {
+  //     background: transparent !important;
+  //  }
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #573886;
+  }
+
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+
+    .logo-container {
+      padding: 10px;
+      animation: fadeIn 1.5s forwards;
+
+    }
+
+    a {
+      width: 355px;
+      display: flex;
+      text-decoration: none;
+
+      img {
+        width: 100px;
+        height: 100px;
+        margin-right: 0px;
+        padding-top: 15px;
+        animation-fill-mode: forwards;
+
+        &:hover {
+          animation: bounce 1s;
+        }
+      }
+
+      h1 {
+        font-family: 'BellBottom';
+        font-weight: 100;
+        width: 355px;
+        font-size: 45px;
+        text-align: left;
+        color: #573886;
+        // text-transform: uppercase;
+        letter-spacing: -1px;
+        line-height: 40px;
+
+        .text-animate-hover {
+          &:hover {
+            color: #815db8;
+          }
+        }
+      }
+
+      .lilac {
+        color: #C6B1D7;
+
+        .text-animate-hover {
+          &:hover {
+            color: #bc9cd5;
+          }
+        }
+      }
+    }
+  }
 }
 
-/* Change color on hover */
-.bm-item:hover {
-  color: white;
-}
-
-/* The rest copied directly from react-burger-menu docs */
-
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: absolute;
-  width: 36px;
-  height: 30px;
-  right: 8vw;
-  top: 50px;
-}
-
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: #573886;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  display:none;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: #FAB73B;
-  padding: 2.5em 3.5em 0;
-  font-size: 1.15em;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
-}
-//  .bm-overlay {
-//     background: transparent !important;
-//  }
-/* Wrapper for item list */
-.bm-item-list {
-  color: #573886;
-}
-
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-}
+@media screen and (max-width: 600px) {
+    .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 30px !important;
+    top: 63px !important;
+  }
 }

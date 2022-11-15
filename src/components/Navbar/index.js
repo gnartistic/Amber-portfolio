@@ -1,20 +1,21 @@
-import React from "react"
+import React, {useState, useEffect} from "react"
 import Menu from "./Menu";
 import './index.scss'
 import { NavLink } from 'react-router-dom';
-import Sunflower from '../../assets/images/sunflower.png'
+import Sunflower from '../../assets/images/logoAmber.png'
+import AnimatedLetters from "../AnimatedLetters";
 
 const Navbar = () =>
 {
-    // const [ open, setOpen ] = useState( false );
+    const [ letterClass, setLetterClass ] = useState( 'text-animate' );
 
-    // const toggleOpen = () =>
-    // {
-    //     setOpen( true );
-    //     if( open === true ) {
-    //         setOpen( false );
-    //     }
-    // }
+    useEffect( () =>
+    {
+        setTimeout( () =>
+        {
+            return setLetterClass( 'text-animate-hover' )
+        }, 3000 )
+    }, [] );
 
     return (
         <>
@@ -24,19 +25,17 @@ const Navbar = () =>
                     <div className='logo-container'>
                         <NavLink exact='true' to='/'>
                             <img src={Sunflower} alt='sunflower logo' />
-                            <h1> <span className="lilac">Amber </span><br /> Frautschi
+                            <h1> <span className="lilac"><AnimatedLetters
+                                letterClass={letterClass}
+                                strArray={[ 'A','m','b','e','r' ]}
+                                idx={15} /></span><br />
+                                <AnimatedLetters
+                                    letterClass={letterClass}
+                                    strArray={[ 'F', 'r', 'a', 'u', 't', 's', 'c', 'h', 'i' ]}
+                                    idx={15}/>
                             </h1>
                         </NavLink>
                     </div>
-                    <nav className='desktopNav'>
-                        <NavLink exact='true' activeclassname='active' to='/'>Home</NavLink>
-
-                        <NavLink exact='true' activeclassname='active' to='/about'>About</NavLink>
-
-                        <NavLink exact='true' activeclassname='active' to='/contact'>Contact</NavLink>
-
-                        <NavLink exact='true' activeclassname='active' to='/art'>Art</NavLink>
-                    </nav>
                 </div>
             
                 {/* {open && <div className="menu" onClick={toggleOpen} >
