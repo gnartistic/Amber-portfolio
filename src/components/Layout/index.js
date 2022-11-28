@@ -4,7 +4,7 @@ import Navbar from '../Navbar';
 
 const Layout = () =>
 {
-    return <div className='App'>
+    return <div className='App page' id='pageWrap'>
         <Navbar />
         <Outlet />
     </div>

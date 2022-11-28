@@ -2,49 +2,68 @@
 .about-page,
 .contact-page,
 .art-page {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+
     .text-animate {
         animation: fadeIn 2s forwards !important;
     }
+
     .text-animate-hover {
         &:hover {
-            color: #fca400;
+            color: #815db8;
         }
     }
 
     .photo-carousel {
-        margin-top: 20px;
+        animation-delay: 2s;
+        animation: fadeInUp 2s forwards !important;
     }
-        
+
     h1 {
         font-family: 'BellBottom';
-        color: #FAB73B;
+        font-weight: 500;
+        color: #307473;
         font-size: 36px;
         position: relative;
         left: -35px;
-        width:20%;
-        margin: 0;
+        width: 20%;
+        margin: 5px 0 0 0;
         padding: 50px 0 40px 175px;
     }
 
     .text-zone {
         vertical-align: middle;
         display: table-cell;
-        width: 90vw;
-
-        p {
-            font-size: 28px;
-            font-family: 'Retro';
-            text-align:center;
-            padding-left: 10vw;
-        }
+        width: 100vw;
     }
 }
 
+.page {
+    padding: 0 !important;
+}
 .container {
     width: 100%;
     will-change: contents;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
+}
+
+@media screen and (max-width: 600px) {
+
+    .home-page,
+    .about-page,
+    .contact-page,
+    .art-page {
+        h1 {
+            width: 45vw !important;
+            font-family: 'BellBottom';
+            color: #bc9cd5;
+            font-size: 36px;
+            position: relative;
+            left: 5px !important;
+            padding: 25px 0 5px 100px !important;
+        }
+    }
 }

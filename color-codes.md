@@ -6,3 +6,9 @@ FAB73B - maximum yellow red
 C16200 - alloy orange
 61988E - polished pine
 307473 - myrtle green
+
+auth code for instagram : AQATgUby2fRjTo5hiLwux7dql4tALO7z2ZotwnFsaHqQyg0WbMwQ44UbAer7_cnhIL6g9Brj3RMiKSJeL4rJu7HiRgwGQPi1v3QJ_UO9pnsmSVdYy7gjXiRJ-ZueJqL6uXB1Ykn2O3XC0mL8HhOZ-cdfvUBuDrVQdDc_NORN4_AxtxmI7yW-9wAOgcbhv74efGzWeaRHyXw7KwpHXGq90mHgbFFeMZrGWBtJPkh2EEcZbQ
+
+"access_token": "IGQVJXYmc1aE5mQTFwbDVGQ2FQWHZA0c3g3M3JxcFlXTEVhMEZACQkF6VTh3ZA3ZAvZAVdJT1h1UFRYOUZACNk9fSlhCaUhZARzE4RWlOYmUzMm5IeEdiVVdsSXB4NGZAuaDJrWHBTc05fNVRDTDhiMUNtWXJfeWJtN0N4bUZATT2xr"
+
+"user_id": 17841415158683941

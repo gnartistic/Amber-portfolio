@@ -1,5 +1,33 @@
 .page {
-  padding-bottom: 2vw;
+
+  .navbar-links {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+    font-family: 'BellBottom';
+    animation: fadeInDown 2s forwards;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+
+    a {
+      margin: 0 4px 0 4px;
+      background-color: #FFDB98;
+      border-radius: 30px;
+      padding: 5px 4px 4px 4px;
+      justify-content: center;
+      
+      &:active{
+        color: #573886;
+      }
+
+      &:hover {
+        animation: jello .5s forwards;
+      }
+    }
+  }
 
   #pageWrap {
     text-align: center;
@@ -17,10 +45,10 @@
     padding: 10px;
 
     a {
-      color: #307473;
+      color: #573886;
 
       &:hover {
-        color: #C16200;
+        color: #815db8;
       }
     }
   }
@@ -38,13 +66,6 @@
   /* The rest copied directly from react-burger-menu docs */
 
   /* Position and sizing of burger button */
-  .bm-burger-button {
-    position: absolute;
-    width: 36px;
-    height: 30px;
-    right: 180px;
-    top: 80px;
-  }
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
@@ -64,8 +85,8 @@
 
   /* General sidebar styles */
   .bm-menu {
-    background: #FAB73B;
-    padding: 2.5em 3.5em 0;
+    background: #6cb0a3;
+    padding: 2.5em 0em 0;
     font-size: 1.15em;
   }
 
@@ -90,12 +111,26 @@
   .navbar-container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    height: 100px;
+    justify-content: space-between;
+    height: 125px;
+    background-color: #FAB73B;
 
     .logo-container {
-      padding: 10px;
+      padding: 0 0 0 30px;
       animation: fadeIn 1.5s forwards;
+
+    }
+
+    .handwriting {
+      width: 100px;
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      border: 1px solid #333;
+      background-color: #FFDB98;
+      border-radius: 30px;
+      padding: 5px 5px 5px 20px;
+      transform: rotate(330deg);
 
     }
 
@@ -135,11 +170,11 @@
       }
 
       .lilac {
-        color: #C6B1D7;
+        color: #bc9cd5;
 
         .text-animate-hover {
           &:hover {
-            color: #bc9cd5;
+            color: #C6B1D7;
           }
         }
       }
@@ -148,11 +183,64 @@
 }
 
 @media screen and (max-width: 600px) {
-    .bm-burger-button {
+  .navbar-container {
+    height: 20vw;
+
+    .logo-container {
+      display: flex !important;
+      justify-content: center !important;
+      margin: 10px 180px 0 0 !important;
+
+      a {
+        width: 45vw;
+        display: flex;
+        text-decoration: none;
+
+        img {
+          width: 60px !important;
+          height: 60px !important;
+          padding-top: 11px !important;
+        }
+
+        h1 {
+          font-size: 30px !important;
+          line-height: 25px !important;
+        }
+      }
+    }
+  }
+
+  .bm-burger-button {
+    display: block !important;
     position: absolute;
     width: 36px;
     height: 30px;
+  }
+
+  .navbar-links {
+    display: none !important;
+  }
+
+  .bm-burger-button {
     right: 30px !important;
-    top: 63px !important;
+    top: 44px !important;
+  }
+
+  .navbar-container {
+    height: 100px !important;
+
+    .handwriting {
+      display: none;
+    }
+  }
+}
+
+.mobileMenu {
+  width: 70vw !important;
+}
+
+@media screen and (max-width: 2000px) {
+  .bm-burger-button {
+    display: none;
   }
 }

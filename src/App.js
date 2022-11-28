@@ -4,20 +4,25 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Art from './components/Art';
+import Work from './components/Work';
+import { QueryClientProvider, QueryClient } from 'react-query'
+
+const queryClient = new QueryClient()
 
 function App ()
 {
   return (
     <>
+      <QueryClientProvider client={queryClient}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />}/>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/art" element={<Art />}/>
+          <Route path="/work" element={<Work />}/>
         </Route>
       </Routes>
+      </QueryClientProvider>
     </>
   );
 }

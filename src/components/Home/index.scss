@@ -4,21 +4,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
-    .brand-statement {
-        font-size: 100px;
-        margin-top: -25px;
-        font-family: 'Alata';
-        font-weight: 300;
-        font-style: italic;
-        color: #307473;
-
-    .handwriting {
-        width: 250px;
-        position: relative;
-        top: 80px;
-        padding: 0 0 0 20px;
-    }
-    }
-
+.overlay {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
 }

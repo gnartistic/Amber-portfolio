@@ -2,7 +2,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { useState, useEffect } from 'react';
 
-const Art = () =>
+const Work = () =>
 {
     const [ letterClass, setLetterClass ] = useState( 'text-animate' );
 
@@ -19,7 +19,7 @@ const Art = () =>
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={[ 'A', 'r', 't' ]}
+            strArray={[ 'W', 'o', 'r', 'k' ]}
             ind={15} />
         </h1>
       </div>
@@ -27,4 +27,4 @@ const Art = () =>
   )
 }
 
-export default Art
+export default Work

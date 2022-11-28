@@ -21,7 +21,7 @@ export default props => {
                 </li>
 
                 <li className="menu-item">
-                    <NavLink exact='true' activeclassname='active' to='/art'>Art</NavLink>
+                    <NavLink exact='true' activeclassname='active' to='/work'>Work</NavLink>
                 </li>
                 <div>
                     {/* <img src={} alt={}/> */}
