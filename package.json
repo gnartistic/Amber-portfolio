@@ -1,6 +1,7 @@
 {
   "name": "amberport",
   "version": "0.1.0",
+  "homepage": "https://gnartistic.github.io/Amber-portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -30,6 +31,8 @@
     "sass": "^1.54.9"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
