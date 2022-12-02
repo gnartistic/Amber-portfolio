@@ -89,6 +89,9 @@
     padding: 2.5em 0em 0;
     font-size: 1.15em;
   }
+  .mobileMenu {
+    width: 200px !important;
+  }
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
@@ -184,7 +187,7 @@
 
 @media screen and (max-width: 600px) {
   .navbar-container {
-    height: 20vw;
+    height: 20vh !important;
 
     .logo-container {
       display: flex !important;
