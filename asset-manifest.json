@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Amber-portfolio/static/css/main.cff735e6.css",
-    "main.js": "/Amber-portfolio/static/js/main.af12c235.js",
+    "main.css": "/Amber-portfolio/static/css/main.10aee349.css",
+    "main.js": "/Amber-portfolio/static/js/main.ace27ca6.js",
     "static/media/clothing1.jpeg": "/Amber-portfolio/static/media/clothing1.bfcb640e8810e75bdbf4.jpeg",
-    "static/media/shorts.jpeg": "/Amber-portfolio/static/media/shorts.804f92d422b6cc03e640.jpeg",
+    "static/media/shorts.jpeg": "/Amber-portfolio/static/media/shorts.1fc46b4a1a16bcf639ea.jpeg",
     "static/media/candid.jpeg": "/Amber-portfolio/static/media/candid.b8ac4b86f936786d28c5.jpeg",
     "static/media/clothing2.jpeg": "/Amber-portfolio/static/media/clothing2.8d5be2ed726af48d9784.jpeg",
     "static/media/patches.jpeg": "/Amber-portfolio/static/media/patches.8cbada90ba973afbf6fd.jpeg",
+    "static/media/madeInLove.png": "/Amber-portfolio/static/media/madeInLove.c115ed46d79c89f0d371.png",
     "static/media/logoAmber.png": "/Amber-portfolio/static/media/logoAmber.57ff2e09e09a55ee7449.png",
     "static/media/Amber2.jpg": "/Amber-portfolio/static/media/Amber2.a0563554e3e356e05cef.jpg",
     "static/media/patches2.jpg": "/Amber-portfolio/static/media/patches2.7b6261b9f34e60e31f10.jpg",
-    "static/media/painting2.jpg": "/Amber-portfolio/static/media/painting2.ad42a9152cbc992eb34f.jpg",
+    "static/media/painting2.jpg": "/Amber-portfolio/static/media/painting2.3c62b4d53ae82b8cf29b.jpg",
     "static/media/shirts.jpg": "/Amber-portfolio/static/media/shirts.22a8a1d7544c90dfaf55.jpg",
     "static/media/Amber1.jpg": "/Amber-portfolio/static/media/Amber1.18edb660c67b93b173a2.jpg",
     "static/media/alata-all-400-normal.woff": "/Amber-portfolio/static/media/alata-all-400-normal.0b577d1892d8fcbbe6ef.woff",
@@ -21,11 +22,11 @@
     "static/media/CoolveticaRg.woff": "/Amber-portfolio/static/media/CoolveticaRg.8307bfa187bccdc55f4d.woff",
     "static/media/alata-vietnamese-400-normal.woff2": "/Amber-portfolio/static/media/alata-vietnamese-400-normal.6a13a2fd16d68899bcf5.woff2",
     "index.html": "/Amber-portfolio/index.html",
-    "main.cff735e6.css.map": "/Amber-portfolio/static/css/main.cff735e6.css.map",
-    "main.af12c235.js.map": "/Amber-portfolio/static/js/main.af12c235.js.map"
+    "main.10aee349.css.map": "/Amber-portfolio/static/css/main.10aee349.css.map",
+    "main.ace27ca6.js.map": "/Amber-portfolio/static/js/main.ace27ca6.js.map"
   },
   "entrypoints": [
-    "static/css/main.cff735e6.css",
-    "static/js/main.af12c235.js"
+    "static/css/main.10aee349.css",
+    "static/js/main.ace27ca6.js"
   ]
 }
