@@ -1,19 +1,9 @@
 import './index.scss'
-// import { useState, useEffect } from 'react';
-// import AnimatedLetters from '../AnimatedLetters'
+import MadeInLove from '../../assets/images/madeInLove.png'
 import PhotoCarousel from '../PhotoCarousel';
 
 const Home = () =>
 {
-  // const [ letterClass, setLetterClass ] = useState( 'text-animate' );
-
-  // useEffect( () =>
-  // {
-  //   setTimeout( () =>
-  //   {
-  //     return setLetterClass( 'text-animate-hover' )
-  //   }, 3000 )
-  // }, [] );
 
   return (
     <>
@@ -22,6 +12,10 @@ const Home = () =>
           <PhotoCarousel />
         </div>
         <div className='text-zone'>
+          <div className='alt-text'>
+            <img className='handwriting' alt='handwriting' src={MadeInLove}/>
+            {/* <a className='link-text' href='https://www.instagram.com/heartspace.goods/?hl=en'> @heartspace.goods</a> */}
+          </div>
         </div>
       </div>
     </>

@@ -1,3 +1,7 @@
+.contact-page {
+    margin-top: 100px;
+}
+
 .form-container {
     display: flex;
     flex-direction: row-reverse;
@@ -11,18 +15,18 @@
         color: #444444;
         font-family: 'CoolveticaRg';
         width: 300px;
-        animation: pulse 2s;
+        animation: pulse 1s;
 
         &:nth-of-type(1) {
-            animation-delay: 1.1s;
+            animation-delay: .3s;
         }
 
         &:nth-of-type(2) {
-            animation-delay: 1.3s;
+            animation-delay: .5s;
         }
 
         &:nth-of-type(3) {
-            animation-delay: 1.5s;
+            animation-delay: .7s;
         }
     }
 
@@ -76,6 +80,7 @@
             &::placeholder {
                 color: #444444;
                 opacity: 0.6;
+                font-family: 'CoolveticaRg';
             }
 
             &:focus {
@@ -101,6 +106,7 @@
             &::placeholder {
                 color: #444444;
                 opacity: 0.6;
+                font-family: 'CoolveticaRg';
             }
 
             &:focus {
@@ -128,6 +134,7 @@
                 border-radius: 4px;
                 width: 25%;
                 margin-left: 15px;
+                font-family: 'CoolveticaRg';
             }
         }
 

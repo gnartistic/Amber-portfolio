@@ -4,6 +4,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 200px;
+
+    .handwriting {
+        width: 220px;
+        padding-top: 20px;
+        transform: rotate(-5deg);
+        animation: fadeIn 2s forwards;
+        display: none;
+    }
 }
 
 .overlay {
@@ -12,4 +21,18 @@
     /* Black see-through */
     color: #f1f1f1;
     width: 100%;
+}
+
+.link-text {
+    font-family: 'CoolveticaRg';
+        letter-spacing: 1px;
+        color: #444;
+        font-size: 40px !important;
+        text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+        .handwriting {
+                display: inline-block !important;
+            }
 }

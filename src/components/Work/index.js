@@ -33,18 +33,18 @@ const Work = () =>
             <img alt='patches' src={patches} className='patches' />
             <h2>Patches</h2>
           </NavLink>
-          <NavLink exact='true' to='/shorts' className='category-container-alt'>
-            <h2>Shorts</h2>
-            <img alt='shorts' src={shorts} className='shorts' />
-            </NavLink>
-          <NavLink exact='true' to='/shirts' className='category-container'>
-            <img alt='shirts' src={shirts} className='shirts' />
-            <h2>Shirts</h2>
-          </NavLink>
           <NavLink exact='true' to='/paintings' className='category-container-alt'>
             <h2>Paintings</h2>
             <img alt='painting' src={painting2} className='paintings' />
           </NavLink>
+          <NavLink exact='true' to='/shirts' className='category-container'>
+            <img alt='shirts' src={shirts} className='shirts' />
+            <h2>Shirts</h2>
+          </NavLink>
+          <NavLink exact='true' to='/shorts' className='category-container-alt'>
+            <h2>Shorts</h2>
+            <img alt='shorts' src={shorts} className='shorts' />
+            </NavLink>
         </div>
       </div>
     </>

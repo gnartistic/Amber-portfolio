@@ -18,7 +18,7 @@
 
     .photo-carousel {
         animation-delay: 2s;
-        animation: fadeInUp 2s forwards !important;
+        animation: fadeInDown 2s forwards !important;
     }
 
     h1 {
@@ -47,7 +47,6 @@
     width: 100%;
     will-change: contents;
     transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
 }
 
 @media screen and (max-width: 600px) {

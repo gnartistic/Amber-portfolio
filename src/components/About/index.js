@@ -1,29 +1,12 @@
-import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
-import { useState, useEffect } from 'react';
 import Amber1 from '../../assets/images/Amber1.jpg';
 import Amber2 from '../../assets/images/Amber2.jpg'
 
 const About = () =>
 {
-  const [ letterClass, setLetterClass ] = useState( 'text-animate' );
-
-  useEffect( () =>
-  {
-    setTimeout( () =>
-    {
-      return setLetterClass( 'text-animate-hover' )
-    }, 3000 )
-  }, [] );
-
   return (
     <>
       <div className='about-page container'>
-        {/* <h1>
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={[ 'A', 'b', 'o', 'u', 't', '','', 'M','e' ]} idx={15} />
-        </h1> */}
         <div className='page-contents'>
           <div className='text-zone1'>
             <img src={Amber1} alt='Amber at a popup shop with friends' />

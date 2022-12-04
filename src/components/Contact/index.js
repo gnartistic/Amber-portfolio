@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react';
-import AnimatedLetters from '../AnimatedLetters';
+import { useState } from 'react';
 import './index.scss'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
@@ -10,14 +9,6 @@ const Contact = () =>
     const [ errorMessage, setErrorMessage ] = useState();
 
     const form = useRef();
-
-    useEffect( () =>
-    {
-        setTimeout( () =>
-        {
-            return setLetterClass( 'text-animate-hover' )
-        }, 3000 )
-    }, [] );
 
     const [ sentMessage, setSentMessage ] = useState( '' );
 
@@ -44,24 +35,12 @@ const Contact = () =>
         e.preventDefault()
 
         sendEmail();
-    }
-
-    const [ letterClass, setLetterClass ] = useState( 'text-animate' );
-
-    useEffect( () =>
-    {
-        setTimeout( () =>
-        {
-            return setLetterClass( 'text-animate-hover' )
-        }, 3000 )
-    }, [] );
+        }
+    
     return (
         <>
             <div className='container contact-page'>
                 <div className='text-zone'>
-                    <h1>
-                        <AnimatedLetters letterClass={letterClass} strArray={[ 'C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e' ]} idx={15} />
-                    </h1>
                     <div className='form-container'>
                         <p className='text'>
                             I am interested in freelance opportunities - especially unique projects. However, if you have any other requests or questions, don't hesitate to contact me using the form below!
