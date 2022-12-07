@@ -27,11 +27,11 @@ const Navbar = () =>
                             <img src={Sunflower} alt='sunflower logo' />
                             <h1> <span className="lilac"><AnimatedLetters
                                 letterClass={letterClass}
-                                strArray={[ 'A', 'm', 'b', 'e', 'r' ]}
+                                strArray={[ 'H', 'e', 'a', 'r', 't','S', 'p','a','c','e' ]}
                                 idx={15} /></span><br />
                                 <AnimatedLetters
                                     letterClass={letterClass}
-                                    strArray={[ 'F', 'r', 'a', 'u', 't', 's', 'c', 'h', 'i' ]}
+                                    strArray={[ 'G', 'o', 'o', 'd', 's' ]}
                                     idx={15} />
                             </h1>
                         </NavLink>
