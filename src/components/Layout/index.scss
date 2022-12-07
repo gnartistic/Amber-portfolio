@@ -5,6 +5,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transform-style: preserve-3d;
+    animation: fadeIn 2s forwards;
 
     .text-animate {
         animation: fadeIn 2s forwards !important;
@@ -14,11 +16,6 @@
         &:hover {
             color: #815db8;
         }
-    }
-
-    .photo-carousel {
-        animation-delay: 2s;
-        animation: fadeInDown 2s forwards !important;
     }
 
     h1 {
@@ -46,7 +43,6 @@
 .container {
     width: 100%;
     will-change: contents;
-    transform-style: preserve-3d;
 }
 
 @media screen and (max-width: 600px) {

@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
-    animation: fadeIn 1s forwards;
 
     .patches {
         width: 25vw;
@@ -41,6 +40,23 @@
             transform: scale(1.1);
         }
     }
+
+
+.cat4 {
+    animation: pulse 1s;
+}
+
+.cat1 {
+    animation: pulse 1s .8s;
+}
+
+.cat2 {
+    animation: pulse 1s 1s;
+}
+
+.cat3 {
+    animation: pulse 1s 1.2s;
+}
 
     .category-container {
         background-color: #573886;

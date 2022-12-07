@@ -3,6 +3,7 @@ import './index.scss'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './index.scss';
+import Loader from 'react-loaders';
 
 const Contact = () =>
 {
@@ -77,6 +78,7 @@ const Contact = () =>
                     </div>
                 </div>
             </div>
+            <Loader type="ball-pulse-sync" />
         </>
     )
 }

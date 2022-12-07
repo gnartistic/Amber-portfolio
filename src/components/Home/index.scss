@@ -33,6 +33,18 @@
 
 @media screen and (max-width: 600px) {
         .handwriting {
-                display: inline-block !important;
+                display: none !important;
+            }
+
+            .photo-carousel {
+                height: 600px;
+            }
+
+            .home-page {
+                display: flex;
+                justify-content: center;
+                height: 89vh;
+                background-color: #573886;
+                overflow: hidden;
             }
 }

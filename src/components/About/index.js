@@ -1,6 +1,7 @@
 import './index.scss';
 import Amber1 from '../../assets/images/Amber1.jpg';
 import Amber2 from '../../assets/images/Amber2.jpg'
+import Loader from 'react-loaders';
 
 const About = () =>
 {
@@ -27,6 +28,7 @@ const About = () =>
           </div>
         </div>
       </div>
+      <Loader type="ball-pulse-sync" />
     </>
   )
 }
