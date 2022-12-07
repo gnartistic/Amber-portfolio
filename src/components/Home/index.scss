@@ -23,28 +23,78 @@
     width: 100%;
 }
 
+.brand-statement {
+    display: none;
+
+    .text-animate {
+        animation: fadeInUp 2s forwards !important;
+    }
+
+    .text-animate-hover {
+        &:hover {
+            color: #f1f1f1 !important;
+        }
+    }
+
+
+    @for $i from 1 through 26 {
+        .text-animate._#{$i} {
+            animation-delay: #{calc($i / 15)}s !important;
+        }
+    }
+}
+
 .link-text {
     font-family: 'CoolveticaRg';
-        letter-spacing: 1px;
-        color: #444;
-        font-size: 40px !important;
-        text-align: center;
+    letter-spacing: 1px;
+    color: #444;
+    font-size: 40px !important;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
-        .handwriting {
-                display: none !important;
-            }
+    .handwriting {
+        display: none !important;
+    }
 
-            .photo-carousel {
-                height: 600px;
-            }
+    .photo-carousel {
+        height: 600px;
+        animation: fadeIn 2s forwards !important;
+    }
 
-            .home-page {
-                display: flex;
-                justify-content: center;
-                height: 89vh;
-                background-color: #573886;
-                overflow: hidden;
+    .home-page {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background-color: #815db8;
+        animation: fadeIn 2s forwards;
+
+        .brand-statement {
+            display: flex !important;
+            width: 100vw;
+            height: 100px;
+            align-self: center;
+            justify-self: center;
+            justify-content: center;
+            padding-bottom: 50px;
+            background: rgb(198, 177, 215);
+                background: radial-gradient(circle, rgba(198, 177, 215, 1) 0%, rgba(87, 56, 134, 1) 100%);
+
+            h1 {
+                width: 80vw !important;
+                font-size: 45px !important;
+                font-family: 'BellBottom';
+                font-weight: 100;
+                letter-spacing: 0px;
+                color: #f1f1f1;
+                padding-top: 20px;
+
+                .text-animate-hover {
+                    &:hover {
+                        color: #815db8;
+                    }
+                }
             }
+        }
+    }
 }

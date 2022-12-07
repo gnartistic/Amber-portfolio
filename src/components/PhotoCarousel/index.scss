@@ -17,7 +17,6 @@ https://flickity.metafizzy.co
     background-color: rgba(51, 51, 51, 0.196);
     height: 775px;
     transition: height 0.2s;
-    animation: pulse 1s 1.1s;
 }
 
 .flickity-slider {
@@ -160,8 +159,4 @@ https://flickity.metafizzy.co
 .photo4 {
     width: 800px !important;
     padding: 0;
-}
-
-@media screen and (max-width: 600px) {
-    
 }

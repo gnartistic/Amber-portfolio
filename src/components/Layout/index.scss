@@ -8,28 +8,6 @@
     transform-style: preserve-3d;
     animation: fadeIn 2s forwards;
 
-    .text-animate {
-        animation: fadeIn 2s forwards !important;
-    }
-
-    .text-animate-hover {
-        &:hover {
-            color: #815db8;
-        }
-    }
-
-    h1 {
-        font-family: 'BellBottom';
-        font-weight: 500;
-        color: #307473;
-        font-size: 36px;
-        position: relative;
-        left: -35px;
-        width: 20%;
-        margin: 5px 0 0 0;
-        padding: 50px 0 40px 175px;
-    }
-
     .text-zone {
         vertical-align: middle;
         display: table-cell;
@@ -43,23 +21,4 @@
 .container {
     width: 100%;
     will-change: contents;
-}
-
-@media screen and (max-width: 600px) {
-
-    .home-page,
-    .about-page,
-    .contact-page,
-    .art-page {
-        
-        h1 {
-            width: 45vw !important;
-            font-family: 'BellBottom';
-            color: #bc9cd5;
-            font-size: 36px;
-            position: relative;
-            left: 5px !important;
-            padding: 25px 0 5px 100px !important;
-        }
-    }
 }
