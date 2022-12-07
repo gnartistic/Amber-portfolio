@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amber-portfolio/static/css/main.9adb22a1.css",
-    "main.js": "/Amber-portfolio/static/js/main.e77c1d15.js",
+    "main.css": "/Amber-portfolio/static/css/main.c26506fb.css",
+    "main.js": "/Amber-portfolio/static/js/main.b9ae6274.js",
     "static/media/clothing1.jpeg": "/Amber-portfolio/static/media/clothing1.bfcb640e8810e75bdbf4.jpeg",
     "static/media/shorts.jpeg": "/Amber-portfolio/static/media/shorts.1fc46b4a1a16bcf639ea.jpeg",
     "static/media/candid.jpeg": "/Amber-portfolio/static/media/candid.b8ac4b86f936786d28c5.jpeg",
@@ -21,11 +21,11 @@
     "static/media/CoolveticaRg.woff": "/Amber-portfolio/static/media/CoolveticaRg.8307bfa187bccdc55f4d.woff",
     "static/media/alata-vietnamese-400-normal.woff2": "/Amber-portfolio/static/media/alata-vietnamese-400-normal.6a13a2fd16d68899bcf5.woff2",
     "index.html": "/Amber-portfolio/index.html",
-    "main.9adb22a1.css.map": "/Amber-portfolio/static/css/main.9adb22a1.css.map",
-    "main.e77c1d15.js.map": "/Amber-portfolio/static/js/main.e77c1d15.js.map"
+    "main.c26506fb.css.map": "/Amber-portfolio/static/css/main.c26506fb.css.map",
+    "main.b9ae6274.js.map": "/Amber-portfolio/static/js/main.b9ae6274.js.map"
   },
   "entrypoints": [
-    "static/css/main.9adb22a1.css",
-    "static/js/main.e77c1d15.js"
+    "static/css/main.c26506fb.css",
+    "static/js/main.b9ae6274.js"
   ]
 }
