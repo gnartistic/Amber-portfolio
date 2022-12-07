@@ -43,19 +43,19 @@
 
 
 .cat4 {
-    animation: pulse 1s;
-}
-
-.cat1 {
-    animation: pulse 1s .8s;
-}
-
-.cat2 {
     animation: pulse 1s 1s;
 }
 
-.cat3 {
+.cat1 {
     animation: pulse 1s 1.2s;
+}
+
+.cat2 {
+    animation: pulse 1s 1.4s;
+}
+
+.cat3 {
+    animation: pulse 1s 1.6s;
 }
 
     .category-container {
