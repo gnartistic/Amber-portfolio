@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amber-portfolio/static/css/main.b4779321.css",
-    "main.js": "/Amber-portfolio/static/js/main.1ca41864.js",
+    "main.css": "/Amber-portfolio/static/css/main.d133a976.css",
+    "main.js": "/Amber-portfolio/static/js/main.47f9b54f.js",
     "static/media/clothing1.jpeg": "/Amber-portfolio/static/media/clothing1.bfcb640e8810e75bdbf4.jpeg",
     "static/media/shorts.jpeg": "/Amber-portfolio/static/media/shorts.1fc46b4a1a16bcf639ea.jpeg",
     "static/media/candid.jpeg": "/Amber-portfolio/static/media/candid.b8ac4b86f936786d28c5.jpeg",
@@ -16,16 +16,17 @@
     "static/media/alata-all-400-normal.woff": "/Amber-portfolio/static/media/alata-all-400-normal.0b577d1892d8fcbbe6ef.woff",
     "static/media/helvetica-neu.ttf": "/Amber-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/bellBottom.ttf": "/Amber-portfolio/static/media/bellBottom.c274b2a72c80246d6964.ttf",
+    "static/media/checkPattern.png": "/Amber-portfolio/static/media/checkPattern.193893c5d23e85015acd.png",
     "static/media/alata-latin-400-normal.woff2": "/Amber-portfolio/static/media/alata-latin-400-normal.e84348368f0c68e3303a.woff2",
     "static/media/alata-latin-ext-400-normal.woff2": "/Amber-portfolio/static/media/alata-latin-ext-400-normal.bf3e9a749de72680e919.woff2",
     "static/media/CoolveticaRg.woff": "/Amber-portfolio/static/media/CoolveticaRg.8307bfa187bccdc55f4d.woff",
     "static/media/alata-vietnamese-400-normal.woff2": "/Amber-portfolio/static/media/alata-vietnamese-400-normal.6a13a2fd16d68899bcf5.woff2",
     "index.html": "/Amber-portfolio/index.html",
-    "main.b4779321.css.map": "/Amber-portfolio/static/css/main.b4779321.css.map",
-    "main.1ca41864.js.map": "/Amber-portfolio/static/js/main.1ca41864.js.map"
+    "main.d133a976.css.map": "/Amber-portfolio/static/css/main.d133a976.css.map",
+    "main.47f9b54f.js.map": "/Amber-portfolio/static/js/main.47f9b54f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4779321.css",
-    "static/js/main.1ca41864.js"
+    "static/css/main.d133a976.css",
+    "static/js/main.47f9b54f.js"
   ]
 }
