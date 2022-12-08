@@ -69,18 +69,6 @@
     }
 }
 
-.checkBorder {
-    width: 100vw;
-    height: 40px;
-
-    .checks, .checks1, .checks2 {
-        width: 25vw;
-        background-color: #f1f1f1;
-        margin: 0px 0 0 0px;
-        padding: 0;
-    }
-}
-
 .link-text {
     font-family: 'CoolveticaRg';
     letter-spacing: 1px;
@@ -95,7 +83,7 @@
     }
 
     .photo-carousel {
-        height: 580px;
+        height: 680px;
         animation: fadeIn 2s forwards !important;
     }
 
@@ -104,15 +92,6 @@
         flex-direction: column;
         overflow: hidden;
         animation: fadeIn 2s forwards;
-
-        .checks {
-            display: none !important;
-        }
-        .checks1, .checks2 {
-            width: 100vw;
-            background-color: #f1f1f1;
-            height: 55px;
-        }
 
         .brand-statement {
             display: flex !important;

@@ -5,6 +5,7 @@ import patches from '../../assets/images/patches.jpeg';
 import React from 'react';
 import Flickity from 'react-flickity-component'
 import './index.scss'
+import checks from '../../assets/images/checkPattern.png';
 
 const PhotoCarousel = () =>
 {
@@ -15,24 +16,36 @@ const PhotoCarousel = () =>
         autoPlay: 3000,
         fade: true
     }
-    
 
-return (
-    <>
-        <Flickity
-            className={'carousel'} // default ''
-            elementType={'div'} // default 'div'
-            options={flickityOptions} // takes flickity options {}
-            disableImagesLoaded={false} // default false
-            reloadOnUpdate // default false
-            static>
-            <img className='photo2' src={clothing1} alt='clothing 2' />
-            <img className='photo1' src={candid} alt='clothing' />
-            <img className='photo3' src={clothing2} alt='candid of amber' />
-            <img className='photo4' src={patches} alt='painting by amber' />
-        </Flickity>
-    </>
-)
+
+    return (
+        <>
+            <div className='checkBorder'>
+                <img alt='checkard pattern' className='checks1' src={checks} />
+                <img alt='checkard pattern' className='checks' src={checks} />
+                <img alt='checkard pattern' className='checks' src={checks} />
+                <img alt='checkard pattern' className='checks' src={checks} />
+            </div>
+            <Flickity
+                className={'carousel'} // default ''
+                elementType={'div'} // default 'div'
+                options={flickityOptions} // takes flickity options {}
+                disableImagesLoaded={false} // default false
+                reloadOnUpdate // default false
+                static>
+                <img className='photo2' src={clothing1} alt='clothing 2' />
+                <img className='photo1' src={candid} alt='clothing' />
+                <img className='photo3' src={clothing2} alt='candid of amber' />
+                <img className='photo4' src={patches} alt='painting by amber' />
+            </Flickity>
+            <div className='checkBorder'>
+                <img alt='checkard pattern' className='checks2' src={checks} />
+                <img alt='checkard pattern' className='checks' src={checks} />
+                <img alt='checkard pattern' className='checks' src={checks} />
+                <img alt='checkard pattern' className='checks' src={checks} />
+            </div>
+        </>
+    )
 }
 
 export default PhotoCarousel

@@ -1,7 +1,17 @@
 /*! Flickity v2.1.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
+.checkBorder {
+    width: 100vw;
+    height: 40px;
 
+    .checks,
+    .checks1,
+    .checks2 {
+        width: 25vw;
+        background-color: #f1f1f1;
+    }
+}
 
 .flickity-enabled {
     position: relative;
@@ -15,7 +25,7 @@ https://flickity.metafizzy.co
     overflow: hidden;
     position: relative;
     background-color: rgba(51, 51, 51, 0.196);
-    height: 775px;
+    height: auto;
     transition: height 0.2s;
 }
 
@@ -142,7 +152,7 @@ https://flickity.metafizzy.co
     display: none;
     width: 10px;
     height: 10px;
-    margin: 0 8px;
+    margin: 0 0px;
     background: rgba(51, 51, 51, 0.153);
     border-radius: 50%;
     opacity: 0.25;
@@ -169,4 +179,20 @@ https://flickity.metafizzy.co
             width: 774px !important;
             padding: 0;
         }
+
+
+                .checks {
+                    display: none !important;
+                }
+                .checks1 {
+                    position: relative;
+                    top: -15px;
+                }
+        
+                .checks1,
+                .checks2 {
+                    width: 100vw !important;
+                    background-color: #f1f1f1;
+                    height: 55px;
+                }
 }
