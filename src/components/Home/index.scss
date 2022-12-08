@@ -15,6 +15,11 @@
     }
 }
 
+.photo-carousel {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .overlay {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
@@ -24,7 +29,27 @@
 }
 
 .brand-statement {
-    display: none;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+
+        h1 {
+                width: 80vw !important;
+                font-size: 55px !important;
+                font-family: 'BellBottom';
+                font-weight: 100;
+                letter-spacing: 0px;
+                color: #f1f1f1;
+                padding: 30px 0 30px 0;
+                margin: 0 !important;
+        
+                .text-animate-hover {
+                    &:hover {
+                        color: #815db8;
+                    }
+                }
+            }
 
     .text-animate {
         animation: fadeInUp 2s forwards !important;
@@ -44,6 +69,18 @@
     }
 }
 
+.checkBorder {
+    width: 100vw;
+    height: 40px;
+
+    .checks, .checks1, .checks2 {
+        width: 25vw;
+        background-color: #f1f1f1;
+        margin: 0px 0 0 0px;
+        padding: 0;
+    }
+}
+
 .link-text {
     font-family: 'CoolveticaRg';
     letter-spacing: 1px;
@@ -58,7 +95,7 @@
     }
 
     .photo-carousel {
-        height: 600px;
+        height: 580px;
         animation: fadeIn 2s forwards !important;
     }
 
@@ -68,6 +105,15 @@
         overflow: hidden;
         animation: fadeIn 2s forwards;
 
+        .checks {
+            display: none !important;
+        }
+        .checks1, .checks2 {
+            width: 100vw;
+            background-color: #f1f1f1;
+            height: 55px;
+        }
+
         .brand-statement {
             display: flex !important;
             width: 100vw;
@@ -75,7 +121,7 @@
             align-self: center;
             justify-self: center;
             justify-content: center;
-            padding-bottom: 50px;
+            padding-bottom: 10px;
 
             h1 {
                 width: 80vw !important;

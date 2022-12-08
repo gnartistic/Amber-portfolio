@@ -28,7 +28,7 @@ const Navbar = () =>
                             <h1> <span className="lilac"><AnimatedLetters
                                 letterClass={letterClass}
                                 strArray={[ 'H', 'e', 'a', 'r', 't','S', 'p','a','c','e' ]}
-                                idx={15} /></span><br />
+                                idx={15} /></span>
                                 <AnimatedLetters
                                     letterClass={letterClass}
                                     strArray={[ 'G', 'o', 'o', 'd', 's' ]}

@@ -3,6 +3,7 @@ import PhotoCarousel from '../PhotoCarousel';
 import Loader from 'react-loaders';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import checks from '../../assets/images/checkPattern.png';
 
 const Home = () =>
 {
@@ -26,8 +27,20 @@ const Home = () =>
             idx={15} />
           </h1>
         </div>
+        <div className='checkBorder'>
+          <img alt='checkard pattern' className='checks1' src={checks}/>
+          <img alt='checkard pattern' className='checks' src={checks}/>
+          <img alt='checkard pattern' className='checks' src={checks}/>
+          <img alt='checkard pattern' className='checks' src={checks}/>
+        </div>
         <div className='photo-carousel'>
           <PhotoCarousel />
+        </div>
+        <div className='checkBorder'>
+          <img alt='checkard pattern' className='checks2' src={checks}/>
+          <img alt='checkard pattern' className='checks' src={checks}/>
+          <img alt='checkard pattern' className='checks' src={checks}/>
+          <img alt='checkard pattern' className='checks' src={checks}/>
         </div>
       </div>
       <Loader type="ball-pulse-sync" />

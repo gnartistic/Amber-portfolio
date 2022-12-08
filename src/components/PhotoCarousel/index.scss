@@ -157,6 +157,16 @@ https://flickity.metafizzy.co
 .photo2,
 .photo3,
 .photo4 {
-    width: 800px !important;
+    width: 550px !important;
     padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .photo1,
+        .photo2,
+        .photo3,
+        .photo4 {
+            width: 774px !important;
+            padding: 0;
+        }
 }
