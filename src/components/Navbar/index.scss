@@ -155,7 +155,7 @@
       h1 {
         font-family: 'BellBottom';
         font-weight: 100;
-        width: 355px;
+        width: 200px;
         font-size: 45px;
         text-align: left;
         color: #573886;
@@ -179,24 +179,30 @@
       width: 100vw;
 
     .logo-container {
-      display: flex !important;
       justify-content: center !important;
       margin: 10px 180px 0 0 !important;
+      display: flex;
 
       a {
-        width: 65vw;
-        display: flex;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
         text-decoration: none;
+        padding-left: 50px;
+        width: 100px !important;
 
         img {
-          width: 60px !important;
-          height: 60px !important;
-          padding-top: 0px !important;
+          width: 65px !important;
+          height: 65px !important;
+          padding-bottom: 0px !important;
+          margin-top: -15px !important;
+          padding-left: 43px !important;
         }
 
         h1 {
-          padding-top: 8px;
-          font-size: 30px !important;
+          padding-top: 3px;
+          font-size: 26px !important;
+          margin-top: 0 !important;
         }
       }
     }
@@ -214,12 +220,19 @@
   }
 
   .bm-burger-button {
-    right: 30px !important;
-    top: 44px !important;
+    left: 30px !important;
+    top: 35px !important;
   }
 
   .navbar-container {
     height: 100px !important;
+    width: 100vw !important;
+
+    .logo-container {
+      position: absolute;
+      right: -45px;
+      width: 200px !important;
+    }
 
     .handwriting {
       display: none;

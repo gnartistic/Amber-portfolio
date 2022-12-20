@@ -14,18 +14,19 @@ const PhotoCarousel = () =>
         initialIndex: 1,
         wrapAround: true,
         autoPlay: 3000,
-        fade: true
+        fade: true,
     }
 
 
     return (
+        
         <>
-            <div className='checkBorder'>
+            {/* <div className='checkBorder'>
                 <img alt='checkard pattern' className='checks1' src={checks} />
-                <img alt='checkard pattern' className='checks' src={checks} />
-                <img alt='checkard pattern' className='checks' src={checks} />
-                <img alt='checkard pattern' className='checks' src={checks} />
-            </div>
+                <img alt='checkard pattern' className='check1' src={checks} />
+                <img alt='checkard pattern' className='check1' src={checks} />
+                <img alt='checkard pattern' className='check1' src={checks} />
+            </div> */}
             <Flickity
                 className={'carousel'} // default ''
                 elementType={'div'} // default 'div'
@@ -38,12 +39,12 @@ const PhotoCarousel = () =>
                 <img className='photo3' src={clothing2} alt='candid of amber' />
                 <img className='photo4' src={patches} alt='painting by amber' />
             </Flickity>
-            <div className='checkBorder'>
+            {/* <div className='checkBorder'>
                 <img alt='checkard pattern' className='checks2' src={checks} />
-                <img alt='checkard pattern' className='checks' src={checks} />
-                <img alt='checkard pattern' className='checks' src={checks} />
-                <img alt='checkard pattern' className='checks' src={checks} />
-            </div>
+                <img alt='checkard pattern' className='check2' src={checks} />
+                <img alt='checkard pattern' className='check2' src={checks} />
+                <img alt='checkard pattern' className='check2' src={checks} />
+            </div> */}
         </>
     )
 }

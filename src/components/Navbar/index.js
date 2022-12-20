@@ -20,11 +20,11 @@ const Navbar = () =>
     return (
         <>
             <div>
-                <Menu right pageWrapId={"pageWrap"} outerContainerId={"Navbar"} />
+                <Menu left pageWrapId={"pageWrap"} outerContainerId={"Navbar"} />
                 <div className='navbar-container'>
                     <div className='logo-container'>
-                        <NavLink exact='true' to='/'>
-                            <img src={Sunflower} alt='sunflower logo' />
+                        <NavLink exact='true' to='/'> 
+                            <img className="sunflower" src={Sunflower} alt='sunflower logo' />
                             <h1> <span className="lilac"><AnimatedLetters
                                 letterClass={letterClass}
                                 strArray={[ 'H', 'e', 'a', 'r', 't','S', 'p','a','c','e' ]}
