@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Amber-portfolio/static/css/main.d92336f3.css",
+    "main.css": "/Amber-portfolio/static/css/main.6284c562.css",
     "main.js": "/Amber-portfolio/static/js/main.1c64259d.js",
     "static/media/clothing1.jpeg": "/Amber-portfolio/static/media/clothing1.bfcb640e8810e75bdbf4.jpeg",
     "static/media/shorts.jpeg": "/Amber-portfolio/static/media/shorts.1fc46b4a1a16bcf639ea.jpeg",
@@ -22,11 +22,11 @@
     "static/media/CoolveticaRg.woff": "/Amber-portfolio/static/media/CoolveticaRg.8307bfa187bccdc55f4d.woff",
     "static/media/alata-vietnamese-400-normal.woff2": "/Amber-portfolio/static/media/alata-vietnamese-400-normal.6a13a2fd16d68899bcf5.woff2",
     "index.html": "/Amber-portfolio/index.html",
-    "main.d92336f3.css.map": "/Amber-portfolio/static/css/main.d92336f3.css.map",
+    "main.6284c562.css.map": "/Amber-portfolio/static/css/main.6284c562.css.map",
     "main.1c64259d.js.map": "/Amber-portfolio/static/js/main.1c64259d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92336f3.css",
+    "static/css/main.6284c562.css",
     "static/js/main.1c64259d.js"
   ]
 }
